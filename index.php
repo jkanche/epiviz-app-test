@@ -5,7 +5,7 @@ session_start();
 
 const SETTINGS_EXPIRATION_TIME = 2592000; // One month in seconds
 const DEFAULT_SETTINGS_ARG = 'default';
-const DEFAULT_SETTINGS_FILE = 'src/epiviz/default-settings.js';
+const DEFAULT_SETTINGS_FILE = 'default-settings.js';
 $settings_file = (array_key_exists('settings', $_COOKIE)) ? $_COOKIE['settings'] : DEFAULT_SETTINGS_FILE;
 $curlopt_userpwd = '';
 
